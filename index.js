@@ -16,5 +16,11 @@ const students = [
         photo: "./img/vagus.jpg",
         age: "13",
         hobby: "3D model, cooking"
-    }
+    },
+    {
+        studentName: "Dima",
+        photo: "./img/vagus.jpg",
+        age: "13",
+        hobby: "biking, like turkeys"
+    },
 ]
