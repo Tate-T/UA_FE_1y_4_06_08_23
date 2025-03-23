@@ -1,4 +1,5 @@
 const studentList = document.querySelector(".student-list");
+const modalBackdrop = document.querySelector(".backdrop");
 const students = [
   {
     studentName: "Mark💍💍💍💍💍💍👑👑👑👑👑👑",
@@ -62,4 +63,11 @@ const studentsList = students
   })
   .join("");
 studentList.innerHTML = studentsList;
-console.log(studentsList);
+
+studentList.addEventListener("click", (event) => {
+  console.log(event.target)
+  if (event.target.nodeName !== "LI") {
+    return
+  }
+modalBackdrop.classList.remove("is-hidden");
+})
