@@ -29,4 +29,10 @@ const students = [
         age: "15",
         hobby: "fishing, guitar"
     },
+    {
+        studentName: "Max",
+        photo: "./img/max.jpg",
+        age: "14",
+        hobby: "football, swimming"
+    }
 ]
